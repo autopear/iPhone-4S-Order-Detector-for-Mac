@@ -1,0 +1,47 @@
+/* Title */
+"iPhone 4S Online Order Detector" = "iPhone 4S 在线订购检测";
+
+/* Press buttons */
+"Start" = "开始";
+"Open" = "打开";
+"Select All" = "全选";
+"Select Inverse" = "反选";
+"About" = "关于";
+"Quit" = "退出";
+"Reset" = "重置";
+"OK" = "确定";
+"Cancel" = "取消";
+
+/* Check boxes */
+"Black" = "黑色";
+"White" = "白色";
+"Enabled" = "启用";
+
+/* Group box*/
+"Select Device" = "选择设备";
+"Detection Interval" = "探测间隔时间";
+"Silent Mode" = "静默模式";
+
+/* Time Unit */
+"H" = "时";
+"M" = "分";
+"S" = "秒";
+
+/* Labels */
+"Area:" = "地区:";
+"Interval:" = "间隔时间:";
+"URL:" = "地址:";
+"Follow autopear at:" = "关注 autopear:";
+
+/* Help text */
+"1. Select an area where you want to order iPhone 4S from.\n\n2. Select the device(s) you want to order.\n\n3. Set the detection interval and the time unit.\n\n4. You can enable silent mode, which will only warn you when an order is available." = "1. 选择要订购 iPhone 4S 的地区；\n\n2. 选择要订购的设备型号；\n\n3. 设定检测间隔时间和单位；\n\n4. 如需只在可订购时发出提醒，请启用静默模式。";
+
+/* Alerts & Growl */
+"Detection started! Use the status bar icon to access the application." = "检测开始！使用状态栏图标以访问程序功能。";
+"Detection interval must be an integer." = "间隔时间必须是整数。";
+"You must select at least one device." = "您必须至少选择一个设备！";
+"You can order iPhone 4S now!" = "现已可订购 iPhone 4S！";
+"Devices below can be ordered now:\n\n" = "下列设备已可订购：\n\n";
+"\nPress OK to open the page to order iPhone 4S, or press Cancel to continue running." = "\n点击确定打开订购页面，或点击取消以继续运行。";
+"None of your selected device is available for order." = "没有设备可供订购。";
+"In memory of Steve Jobs (1955 - 2011).\n\n\nCopyright © 2011 autopear.\nAll rights reserved." = "谨以此纪念 Steve Jobs (1955 - 2011)。\n\n\n版权所有 © 2011年 autopear。\n保留所有权利。";

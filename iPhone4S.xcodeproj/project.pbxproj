@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D700A3111441EA2900F38013 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D700A3101441EA2900F38013 /* Icon.icns */; };
+		D78C154E14420311002644B8 /* Weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = D78C154D14420311002644B8 /* Weibo.png */; };
+		D78C15511442064C002644B8 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D78C15501442064C002644B8 /* music.mp3 */; };
+		D78C1560144214AE002644B8 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D78C155F144214AE002644B8 /* icon.icns */; };
+		D7B2048A14421AD000F2A52A /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B2048914421AD000F2A52A /* Growl-WithInstaller.framework */; };
+		D7B2048B14421ADA00F2A52A /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7B2048914421AD000F2A52A /* Growl-WithInstaller.framework */; };
+		D7BB04431441858600259B68 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7BB04451441858600259B68 /* Localizable.strings */; };
+		D7BB04591441B1C400259B68 /* StatusBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BB04581441B1C400259B68 /* StatusBarIcon.png */; };
+		D7BB045B1441B23600259B68 /* StatusBarIconHilighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BB045A1441B23600259B68 /* StatusBarIconHilighted.png */; };
+		D7BB045F1441DC0300259B68 /* iPhone4S.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BB045E1441DC0300259B68 /* iPhone4S.png */; };
+		D7F789001440DCCB004C3693 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F788FF1440DCCB004C3693 /* Cocoa.framework */; };
+		D7F7890A1440DCCB004C3693 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7F789081440DCCB004C3693 /* InfoPlist.strings */; };
+		D7F7890C1440DCCB004C3693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F7890B1440DCCB004C3693 /* main.m */; };
+		D7F789101440DCCB004C3693 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D7F7890E1440DCCB004C3693 /* Credits.rtf */; };
+		D7F789131440DCCB004C3693 /* iPhone4SAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F789121440DCCB004C3693 /* iPhone4SAppDelegate.m */; };
+		D7F789161440DCCB004C3693 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F789141440DCCB004C3693 /* MainMenu.xib */; };
+		D7F789191440DCCC004C3693 /* iPhone4S.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7F789171440DCCC004C3693 /* iPhone4S.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D700A3161441EB9100F38013 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D7B2048B14421ADA00F2A52A /* Growl-WithInstaller.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D700A3101441EA2900F38013 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		D78C154D14420311002644B8 /* Weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weibo.png; sourceTree = "<group>"; };
+		D78C15501442064C002644B8 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		D78C1552144210F1002644B8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hant"; path = "zh-Hant.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		D78C1553144210F3002644B8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		D78C1554144210F8002644B8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D78C1555144210FA002644B8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D78C155F144214AE002644B8 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		D7B2048914421AD000F2A52A /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
+		D7BB04441441858600259B68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D7BB04461441859200259B68 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D7BB04471441859400259B68 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D7BB04581441B1C400259B68 /* StatusBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusBarIcon.png; sourceTree = "<group>"; };
+		D7BB045A1441B23600259B68 /* StatusBarIconHilighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusBarIconHilighted.png; sourceTree = "<group>"; };
+		D7BB045E1441DC0300259B68 /* iPhone4S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone4S.png; sourceTree = "<group>"; };
+		D7F788FB1440DCCB004C3693 /* iPhone4S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhone4S.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F788FF1440DCCB004C3693 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D7F789021440DCCB004C3693 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D7F789031440DCCB004C3693 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D7F789041440DCCB004C3693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D7F789071440DCCB004C3693 /* iPhone4S-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhone4S-Info.plist"; sourceTree = "<group>"; };
+		D7F789091440DCCB004C3693 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D7F7890B1440DCCB004C3693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7F7890D1440DCCB004C3693 /* iPhone4S-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhone4S-Prefix.pch"; sourceTree = "<group>"; };
+		D7F7890F1440DCCB004C3693 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D7F789111440DCCB004C3693 /* iPhone4SAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhone4SAppDelegate.h; sourceTree = "<group>"; };
+		D7F789121440DCCB004C3693 /* iPhone4SAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone4SAppDelegate.m; sourceTree = "<group>"; };
+		D7F789151440DCCB004C3693 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D7F789181440DCCC004C3693 /* iPhone4S.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPhone4S.xcdatamodel; sourceTree = "<group>"; };
+		D7F789211440DD4B004C3693 /* iPhone4S.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iPhone4S.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7F788F81440DCCB004C3693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F789001440DCCB004C3693 /* Cocoa.framework in Frameworks */,
+				D7B2048A14421AD000F2A52A /* Growl-WithInstaller.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7F788F01440DCCB004C3693 = {
+			isa = PBXGroup;
+			children = (
+				D78C155F144214AE002644B8 /* icon.icns */,
+				D700A3101441EA2900F38013 /* Icon.icns */,
+				D7F789051440DCCB004C3693 /* iPhone4S */,
+				D7F788FE1440DCCB004C3693 /* Frameworks */,
+				D7F788FC1440DCCB004C3693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7F788FC1440DCCB004C3693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7F788FB1440DCCB004C3693 /* iPhone4S.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7F788FE1440DCCB004C3693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2048914421AD000F2A52A /* Growl-WithInstaller.framework */,
+				D7F788FF1440DCCB004C3693 /* Cocoa.framework */,
+				D7F789011440DCCB004C3693 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7F789011440DCCB004C3693 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7F789021440DCCB004C3693 /* AppKit.framework */,
+				D7F789031440DCCB004C3693 /* CoreData.framework */,
+				D7F789041440DCCB004C3693 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D7F789051440DCCB004C3693 /* iPhone4S */ = {
+			isa = PBXGroup;
+			children = (
+				D78C15501442064C002644B8 /* music.mp3 */,
+				D7BB045E1441DC0300259B68 /* iPhone4S.png */,
+				D7BB045A1441B23600259B68 /* StatusBarIconHilighted.png */,
+				D7BB04581441B1C400259B68 /* StatusBarIcon.png */,
+				D78C154D14420311002644B8 /* Weibo.png */,
+				D7F789211440DD4B004C3693 /* iPhone4S.entitlements */,
+				D7F789111440DCCB004C3693 /* iPhone4SAppDelegate.h */,
+				D7F789121440DCCB004C3693 /* iPhone4SAppDelegate.m */,
+				D7F789141440DCCB004C3693 /* MainMenu.xib */,
+				D7F789171440DCCC004C3693 /* iPhone4S.xcdatamodeld */,
+				D7F789061440DCCB004C3693 /* Supporting Files */,
+				D7BB04451441858600259B68 /* Localizable.strings */,
+			);
+			path = iPhone4S;
+			sourceTree = "<group>";
+		};
+		D7F789061440DCCB004C3693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7F789071440DCCB004C3693 /* iPhone4S-Info.plist */,
+				D7F789081440DCCB004C3693 /* InfoPlist.strings */,
+				D7F7890B1440DCCB004C3693 /* main.m */,
+				D7F7890D1440DCCB004C3693 /* iPhone4S-Prefix.pch */,
+				D7F7890E1440DCCB004C3693 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7F788FA1440DCCB004C3693 /* iPhone4S */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F7891C1440DCCC004C3693 /* Build configuration list for PBXNativeTarget "iPhone4S" */;
+			buildPhases = (
+				D7F788F71440DCCB004C3693 /* Sources */,
+				D7F788F81440DCCB004C3693 /* Frameworks */,
+				D7F788F91440DCCB004C3693 /* Resources */,
+				D700A3161441EB9100F38013 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhone4S;
+			productName = iPhone4S;
+			productReference = D7F788FB1440DCCB004C3693 /* iPhone4S.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7F788F21440DCCB004C3693 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D7F788F51440DCCB004C3693 /* Build configuration list for PBXProject "iPhone4S" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = D7F788F01440DCCB004C3693;
+			productRefGroup = D7F788FC1440DCCB004C3693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7F788FA1440DCCB004C3693 /* iPhone4S */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7F788F91440DCCB004C3693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F7890A1440DCCB004C3693 /* InfoPlist.strings in Resources */,
+				D7F789101440DCCB004C3693 /* Credits.rtf in Resources */,
+				D7F789161440DCCB004C3693 /* MainMenu.xib in Resources */,
+				D7BB04431441858600259B68 /* Localizable.strings in Resources */,
+				D7BB04591441B1C400259B68 /* StatusBarIcon.png in Resources */,
+				D7BB045B1441B23600259B68 /* StatusBarIconHilighted.png in Resources */,
+				D7BB045F1441DC0300259B68 /* iPhone4S.png in Resources */,
+				D700A3111441EA2900F38013 /* Icon.icns in Resources */,
+				D78C154E14420311002644B8 /* Weibo.png in Resources */,
+				D78C15511442064C002644B8 /* music.mp3 in Resources */,
+				D78C1560144214AE002644B8 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7F788F71440DCCB004C3693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F7890C1440DCCB004C3693 /* main.m in Sources */,
+				D7F789131440DCCB004C3693 /* iPhone4SAppDelegate.m in Sources */,
+				D7F789191440DCCC004C3693 /* iPhone4S.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7BB04451441858600259B68 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7BB04441441858600259B68 /* en */,
+				D7BB04461441859200259B68 /* zh-Hans */,
+				D7BB04471441859400259B68 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D7F789081440DCCB004C3693 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F789091440DCCB004C3693 /* en */,
+				D78C1554144210F8002644B8 /* zh-Hans */,
+				D78C1555144210FA002644B8 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D7F7890E1440DCCB004C3693 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F7890F1440DCCB004C3693 /* en */,
+				D78C1552144210F1002644B8 /* zh-Hant */,
+				D78C1553144210F3002644B8 /* zh-Hans */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D7F789141440DCCB004C3693 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F789151440DCCB004C3693 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7F7891A1440DCCC004C3693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7F7891B1440DCCC004C3693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7F7891D1440DCCC004C3693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = iPhone4S/iPhone4S.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Desktop/untitled folder/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone4S/iPhone4S-Prefix.pch";
+				INFOPLIST_FILE = "iPhone4S/iPhone4S-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D7F7891E1440DCCC004C3693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = iPhone4S/iPhone4S.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Desktop/untitled folder/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone4S/iPhone4S-Prefix.pch";
+				INFOPLIST_FILE = "iPhone4S/iPhone4S-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7F788F51440DCCB004C3693 /* Build configuration list for PBXProject "iPhone4S" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F7891A1440DCCC004C3693 /* Debug */,
+				D7F7891B1440DCCC004C3693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F7891C1440DCCC004C3693 /* Build configuration list for PBXNativeTarget "iPhone4S" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F7891D1440DCCC004C3693 /* Debug */,
+				D7F7891E1440DCCC004C3693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7F789171440DCCC004C3693 /* iPhone4S.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7F789181440DCCC004C3693 /* iPhone4S.xcdatamodel */,
+			);
+			currentVersion = D7F789181440DCCC004C3693 /* iPhone4S.xcdatamodel */;
+			path = iPhone4S.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7F788F21440DCCB004C3693 /* Project object */;
+}

@@ -1,0 +1,47 @@
+/* Title */
+"iPhone 4S Online Order Detector" = "iPhone 4S Online Order Detector";
+
+/* Press buttons */
+"Start" = "Start";
+"Open" = "Open";
+"Select All" = "Select All";
+"Select Inverse" = "Selece Inverse";
+"About" = "About";
+"Quit" = "Quit";
+"Reset" = "Reset";
+"OK" = "OK";
+"Cancel" = "Cancel";
+
+/* Check boxes */
+"Black" = "Black";
+"White" = "White";
+"Enabled" = "Enabled";
+
+/* Group box*/
+"Select Device" = "Select Device";
+"Detection Interval" = "Detection Interval";
+"Silent Mode" = "Silent Mode";
+
+/* Time Unit */
+"H" = "H";
+"M" = "M";
+"S" = "S";
+
+/* Labels */
+"Area:" = "Area:";
+"Interval:" = "Interval:";
+"URL:" = "URL:";
+"Follow autopear at:" = "Follow autopear at:";
+
+/* Help text */
+"1. Select an area where you want to order iPhone 4S from.\n\n2. Select the device(s) you want to order.\n\n3. Set the detection interval and the time unit.\n\n4. You can enable silent mode, which will only warn you when an order is available." = "1. Select an area where you want to order iPhone 4S from.\n\n2. Select the device(s) you want to order.\n\n3. Set the detection interval and the time unit.\n\n4. You can enable silent mode, which will only warn you when an order is available.";
+
+/* Alerts & Growl */
+"Detection started! Use the status bar icon to access the application." = "Detection started! Use the status bar icon to access the application.";
+"Detection interval must be an integer." = "Detection interval must be an integer.";
+"You must select at least one device." = "You must select at least one device.";
+"You can order iPhone 4S now!" = "You can order iPhone 4S now!";
+"Devices below can be ordered now:\n\n" = "Devices below can be ordered now:\n\n";
+"\nPress OK to open the page to order iPhone 4S, or press Cancel to continue running." = "\nPress OK to open the page to order iPhone 4S, or press Cancel to continue running.";
+"None of your selected device is available for order." = "None of your selected device is available for order.";
+"In memory of Steve Jobs (1955 - 2011).\n\n\nCopyright © 2011 autopear.\nAll rights reserved." = "In memory of Steve Jobs (1955 - 2011).\n\n\nCopyright © 2011 autopear.\nAll rights reserved.";
