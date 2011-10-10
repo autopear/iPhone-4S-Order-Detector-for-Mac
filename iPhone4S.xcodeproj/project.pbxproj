@@ -11,12 +11,12 @@
 		D78C154E14420311002644B8 /* Weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = D78C154D14420311002644B8 /* Weibo.png */; };
 		D78C15511442064C002644B8 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D78C15501442064C002644B8 /* music.mp3 */; };
 		D78C1560144214AE002644B8 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D78C155F144214AE002644B8 /* icon.icns */; };
-		D7B2048A14421AD000F2A52A /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B2048914421AD000F2A52A /* Growl-WithInstaller.framework */; };
-		D7B2048B14421ADA00F2A52A /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7B2048914421AD000F2A52A /* Growl-WithInstaller.framework */; };
 		D7BB04431441858600259B68 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7BB04451441858600259B68 /* Localizable.strings */; };
 		D7BB04591441B1C400259B68 /* StatusBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BB04581441B1C400259B68 /* StatusBarIcon.png */; };
 		D7BB045B1441B23600259B68 /* StatusBarIconHilighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BB045A1441B23600259B68 /* StatusBarIconHilighted.png */; };
 		D7BB045F1441DC0300259B68 /* iPhone4S.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BB045E1441DC0300259B68 /* iPhone4S.png */; };
+		D7F2FAEC1442BD1900C08B61 /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F2FAEB1442BD1900C08B61 /* Growl-WithInstaller.framework */; };
+		D7F2FAF01442BE3E00C08B61 /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7F2FAEF1442BE3E00C08B61 /* Growl-WithInstaller.framework */; };
 		D7F789001440DCCB004C3693 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F788FF1440DCCB004C3693 /* Cocoa.framework */; };
 		D7F7890A1440DCCB004C3693 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7F789081440DCCB004C3693 /* InfoPlist.strings */; };
 		D7F7890C1440DCCB004C3693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F7890B1440DCCB004C3693 /* main.m */; };
@@ -27,13 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D700A3161441EB9100F38013 /* CopyFiles */ = {
+		D7F2FAE81442BC3E00C08B61 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D7B2048B14421ADA00F2A52A /* Growl-WithInstaller.framework in CopyFiles */,
+				D7F2FAF01442BE3E00C08B61 /* Growl-WithInstaller.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,13 +48,14 @@
 		D78C1554144210F8002644B8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		D78C1555144210FA002644B8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		D78C155F144214AE002644B8 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
-		D7B2048914421AD000F2A52A /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
 		D7BB04441441858600259B68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D7BB04461441859200259B68 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D7BB04471441859400259B68 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D7BB04581441B1C400259B68 /* StatusBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusBarIcon.png; sourceTree = "<group>"; };
 		D7BB045A1441B23600259B68 /* StatusBarIconHilighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusBarIconHilighted.png; sourceTree = "<group>"; };
 		D7BB045E1441DC0300259B68 /* iPhone4S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone4S.png; sourceTree = "<group>"; };
+		D7F2FAEB1442BD1900C08B61 /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
+		D7F2FAEF1442BE3E00C08B61 /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
 		D7F788FB1440DCCB004C3693 /* iPhone4S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhone4S.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F788FF1440DCCB004C3693 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D7F789021440DCCB004C3693 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -78,7 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F789001440DCCB004C3693 /* Cocoa.framework in Frameworks */,
-				D7B2048A14421AD000F2A52A /* Growl-WithInstaller.framework in Frameworks */,
+				D7F2FAEC1442BD1900C08B61 /* Growl-WithInstaller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +89,7 @@
 		D7F788F01440DCCB004C3693 = {
 			isa = PBXGroup;
 			children = (
+				D7F2FAEF1442BE3E00C08B61 /* Growl-WithInstaller.framework */,
 				D78C155F144214AE002644B8 /* icon.icns */,
 				D700A3101441EA2900F38013 /* Icon.icns */,
 				D7F789051440DCCB004C3693 /* iPhone4S */,
@@ -107,7 +109,7 @@
 		D7F788FE1440DCCB004C3693 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D7B2048914421AD000F2A52A /* Growl-WithInstaller.framework */,
+				D7F2FAEB1442BD1900C08B61 /* Growl-WithInstaller.framework */,
 				D7F788FF1440DCCB004C3693 /* Cocoa.framework */,
 				D7F789011440DCCB004C3693 /* Other Frameworks */,
 			);
@@ -165,7 +167,7 @@
 				D7F788F71440DCCB004C3693 /* Sources */,
 				D7F788F81440DCCB004C3693 /* Frameworks */,
 				D7F788F91440DCCB004C3693 /* Resources */,
-				D700A3161441EB9100F38013 /* CopyFiles */,
+				D7F2FAE81442BC3E00C08B61 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -280,7 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -298,7 +300,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -306,7 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -317,7 +319,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
@@ -359,6 +362,7 @@
 				GCC_PREFIX_HEADER = "iPhone4S/iPhone4S-Prefix.pch";
 				INFOPLIST_FILE = "iPhone4S/iPhone4S-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = app;

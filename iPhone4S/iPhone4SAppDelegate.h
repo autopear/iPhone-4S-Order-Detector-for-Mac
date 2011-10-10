@@ -1,13 +1,5 @@
-//
-//  iPhone4SAppDelegate.h
-//  iPhone4S
-//
-//  Created by Merlin on 11-10-9.
-//  Copyright 2011年 __MyCompanyName__. All rights reserved.
-//
-
 #import <Cocoa/Cocoa.h>
-#import <Growl/Growl.h>
+#import <Growl-WithInstaller/Growl.h>
 
 @interface iPhone4SAppDelegate : NSObject <GrowlApplicationBridgeDelegate> {
     NSWindow *window;

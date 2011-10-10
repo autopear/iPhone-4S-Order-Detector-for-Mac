@@ -1,11 +1,3 @@
-//
-//  iPhone4SAppDelegate.m
-//  iPhone4S
-//
-//  Created by Merlin on 11-10-9.
-//  Copyright 2011年 __MyCompanyName__. All rights reserved.
-//
-
 #import "iPhone4SAppDelegate.h"
 
 @implementation iPhone4SAppDelegate
@@ -394,29 +386,28 @@
             [alert setInformativeText:[[NSLocalizedString(@"Devices below can be ordered now:\n\n", @"Devices below can be ordered now:\n\n") stringByAppendingString:AlertContent] stringByAppendingString:NSLocalizedString(@"\nPress OK to open the page to order iPhone 4S, or press Cancel to continue running.", @"\nPress OK to open the page to order iPhone 4S, or press Cancel to continue running.")]];
             [alert setIcon:[NSImage imageNamed:@"iPhone4S.png"]];
             
-            if (!SilentOn) {
-                Ringtone = [NSSound soundNamed:@"music.mp3"];
-                if (![Ringtone isPlaying])
-                    [Ringtone play];
-            }
+            Ringtone = [NSSound soundNamed:@"music.mp3"];
+            if (![Ringtone isPlaying])
+                [Ringtone play];
+            
             if  ([alert runModal] == NSAlertFirstButtonReturn) {
                 [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[TextFieldURL stringValue]]];
             }
             
-            if (!SilentOn) {
-                if ([Ringtone isPlaying])
-                    [Ringtone stop];
-            }            
+            if ([Ringtone isPlaying])
+                [Ringtone stop];
             [window makeKeyAndOrderFront:self];
             return;
         } else {
-            [GrowlApplicationBridge notifyWithTitle:NSLocalizedString(@"iPhone 4S Online Order Detector", @"iPhone 4S Online Order Detector")
-                description:NSLocalizedString(@"None of your selected device is available for order.", @"None of your selected device is available for order.")
-                notificationName:@"StandardReminder"
-                iconData:nil
-                priority:1
-                isSticky:NO
-                clickContext:@"test"];
+            if (!SilentOn) {
+                [GrowlApplicationBridge notifyWithTitle:NSLocalizedString(@"iPhone 4S Online Order Detector", @"iPhone 4S Online Order Detector")
+                    description:NSLocalizedString(@"None of your selected device is available for order.", @"None of your selected device is available for order.")
+                    notificationName:@"StandardReminder"
+                    iconData:nil
+                    priority:1
+                    isSticky:NO
+                    clickContext:@"test"];
+            }
         }
         [NSThread sleepForTimeInterval:Interval*IntervalUnit];
     }
