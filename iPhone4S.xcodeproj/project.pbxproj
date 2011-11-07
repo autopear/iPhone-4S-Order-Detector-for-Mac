@@ -15,8 +15,8 @@
 		D7BB04591441B1C400259B68 /* StatusBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BB04581441B1C400259B68 /* StatusBarIcon.png */; };
 		D7BB045B1441B23600259B68 /* StatusBarIconHilighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BB045A1441B23600259B68 /* StatusBarIconHilighted.png */; };
 		D7BB045F1441DC0300259B68 /* iPhone4S.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BB045E1441DC0300259B68 /* iPhone4S.png */; };
-		D7F2FAEC1442BD1900C08B61 /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F2FAEB1442BD1900C08B61 /* Growl-WithInstaller.framework */; };
-		D7F2FAF01442BE3E00C08B61 /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7F2FAEF1442BE3E00C08B61 /* Growl-WithInstaller.framework */; };
+		D7F2FAEC1442BD1900C08B61 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F2FAEB1442BD1900C08B61 /* Growl.framework */; };
+		D7F2FAF01442BE3E00C08B61 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7F2FAEF1442BE3E00C08B61 /* Growl.framework */; };
 		D7F789001440DCCB004C3693 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F788FF1440DCCB004C3693 /* Cocoa.framework */; };
 		D7F7890A1440DCCB004C3693 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7F789081440DCCB004C3693 /* InfoPlist.strings */; };
 		D7F7890C1440DCCB004C3693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F7890B1440DCCB004C3693 /* main.m */; };
@@ -33,7 +33,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D7F2FAF01442BE3E00C08B61 /* Growl-WithInstaller.framework in CopyFiles */,
+				D7F2FAF01442BE3E00C08B61 /* Growl.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,8 +54,8 @@
 		D7BB04581441B1C400259B68 /* StatusBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusBarIcon.png; sourceTree = "<group>"; };
 		D7BB045A1441B23600259B68 /* StatusBarIconHilighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusBarIconHilighted.png; sourceTree = "<group>"; };
 		D7BB045E1441DC0300259B68 /* iPhone4S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone4S.png; sourceTree = "<group>"; };
-		D7F2FAEB1442BD1900C08B61 /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
-		D7F2FAEF1442BE3E00C08B61 /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
+		D7F2FAEB1442BD1900C08B61 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		D7F2FAEF1442BE3E00C08B61 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
 		D7F788FB1440DCCB004C3693 /* iPhone4S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhone4S.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F788FF1440DCCB004C3693 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D7F789021440DCCB004C3693 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -79,7 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F789001440DCCB004C3693 /* Cocoa.framework in Frameworks */,
-				D7F2FAEC1442BD1900C08B61 /* Growl-WithInstaller.framework in Frameworks */,
+				D7F2FAEC1442BD1900C08B61 /* Growl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		D7F788F01440DCCB004C3693 = {
 			isa = PBXGroup;
 			children = (
-				D7F2FAEF1442BE3E00C08B61 /* Growl-WithInstaller.framework */,
+				D7F2FAEF1442BE3E00C08B61 /* Growl.framework */,
 				D78C155F144214AE002644B8 /* icon.icns */,
 				D700A3101441EA2900F38013 /* Icon.icns */,
 				D7F789051440DCCB004C3693 /* iPhone4S */,
@@ -109,7 +109,7 @@
 		D7F788FE1440DCCB004C3693 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D7F2FAEB1442BD1900C08B61 /* Growl-WithInstaller.framework */,
+				D7F2FAEB1442BD1900C08B61 /* Growl.framework */,
 				D7F788FF1440DCCB004C3693 /* Cocoa.framework */,
 				D7F789011440DCCB004C3693 /* Other Frameworks */,
 			);

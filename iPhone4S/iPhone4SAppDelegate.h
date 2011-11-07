@@ -1,5 +1,5 @@
 #import <Cocoa/Cocoa.h>
-#import <Growl-WithInstaller/Growl.h>
+#import <Growl/Growl.h>
 
 @interface iPhone4SAppDelegate : NSObject <GrowlApplicationBridgeDelegate> {
     NSWindow *window;
@@ -21,6 +21,7 @@
     int Interval;
     bool ThreadStop, SilentOn;
     NSString *URLTemplate, *AreaCode, *DeviceSuffix;
+    NSString *DeviceB16, *DeviceB32, *DeviceB64, *DeviceW16, *DeviceW32, *DeviceW64;
     NSMutableArray *ListURL, *ListDevice;
     NSSound *Ringtone;
 }

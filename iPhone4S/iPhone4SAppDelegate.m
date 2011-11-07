@@ -7,7 +7,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     //Load localized strings
-    [window setTitle:[NSLocalizedString(@"iPhone 4S Online Order Detector", @"iPhone 4S Online Order Detector") stringByAppendingString:@" v1.0"]];
+    [window setTitle:[NSLocalizedString(@"iPhone 4S Online Order Detector", @"iPhone 4S Online Order Detector") stringByAppendingString:@" v1.1"]];
     //Press buttons
     [ButtonOpen setTitle:NSLocalizedString(@"Open", @"Open")];
     [ButtonSeleceAll setTitle:NSLocalizedString(@"Select All", @"Select All")];
@@ -54,6 +54,12 @@
     URLTemplate = @"http://store.apple.com/AREACODE/configure/DEVICECODE/A?select=select&product=DEVICECODE%2FA&cppart=UNLOCKED%2FWW&mco=";
     AreaCode = @"hk";
     DeviceSuffix = @"ZP";
+    DeviceB16 = @"235";
+    DeviceB32 = @"242";
+    DeviceB64 = @"258";
+    DeviceW16 = @"239";
+    DeviceW32 = @"254";
+    DeviceW64 = @"261";
     IntervalUnit = 60;
     SilentOn = FALSE;
     [window makeKeyAndOrderFront:self];
@@ -231,26 +237,67 @@
     if ([ComboArea indexOfSelectedItem] == 0) {
         AreaCode = @"hk";
         DeviceSuffix = @"ZP";
+        DeviceB16 = @"235";
+        DeviceB32 = @"242";
+        DeviceB64 = @"258";
+        DeviceW16 = @"239";
+        DeviceW32 = @"254";
+        DeviceW64 = @"261";
     }
     //Hong Kong Chinese
     if ([ComboArea indexOfSelectedItem] == 1) {
         AreaCode = @"hk-zh";
         DeviceSuffix = @"ZP";
+        DeviceB16 = @"235";
+        DeviceB32 = @"242";
+        DeviceB64 = @"258";
+        DeviceW16 = @"239";
+        DeviceW32 = @"254";
+        DeviceW64 = @"261";
     }
     //China
     if ([ComboArea indexOfSelectedItem] == 2) {
         AreaCode = @"cn";
         DeviceSuffix = @"CH";
+        DeviceB16 = @"234";
+        DeviceB32 = @"241";
+        DeviceB64 = @"257";
+        DeviceW16 = @"237";
+        DeviceW32 = @"244";
+        DeviceW64 = @"260";
     }
     //Taiwan
     if ([ComboArea indexOfSelectedItem] == 3) {
         AreaCode = @"tw";
         DeviceSuffix = @"TA";
+        DeviceB16 = @"234";
+        DeviceB32 = @"241";
+        DeviceB64 = @"257";
+        DeviceW16 = @"237";
+        DeviceW32 = @"244";
+        DeviceW64 = @"260";
     }
-    //Australia
+    //South Korea
     if ([ComboArea indexOfSelectedItem] == 4) {
-        AreaCode = @"au";
-        DeviceSuffix = @"X";
+        AreaCode = @"kr";
+        DeviceSuffix = @"KH";
+        DeviceB16 = @"234";
+        DeviceB32 = @"241";
+        DeviceB64 = @"257";
+        DeviceW16 = @"237";
+        DeviceW32 = @"244";
+        DeviceW64 = @"260";
+    }
+    //New Zealand
+    if ([ComboArea indexOfSelectedItem] == 5) {
+        AreaCode = @"nz";
+        DeviceSuffix = @"NZ";
+        DeviceB16 = @"234";
+        DeviceB32 = @"241";
+        DeviceB64 = @"257";
+        DeviceW16 = @"237";
+        DeviceW32 = @"244";
+        DeviceW64 = @"260";
     }
 
     [TextFieldURL setStringValue:[@"http://store.apple.com/AREACODE/browse/home/shop_iphone/family/iphone/iphone4s" stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode]];
@@ -309,27 +356,27 @@
         
         if ([CheckBlackS state] == 1) {
             [ListDevice addObject:[NSLocalizedString(@"Black", @"Black") stringByAppendingString:@" 16GB"]];
-            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[@"MD234" stringByAppendingString:DeviceSuffix]]];
+            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[NSString stringWithFormat:@"MD%@%@", DeviceB16, DeviceSuffix]]];
         }
         if ([CheckBlackM state] == 1) {
             [ListDevice addObject:[NSLocalizedString(@"Black", @"Black") stringByAppendingString:@" 32GB"]];
-            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[@"MD241" stringByAppendingString:DeviceSuffix]]];
+            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[NSString stringWithFormat:@"MD%@%@", DeviceB32, DeviceSuffix]]];
         }
         if ([CheckBlackL state] == 1) {
             [ListDevice addObject:[NSLocalizedString(@"Black", @"Black") stringByAppendingString:@" 64GB"]];
-            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[@"MD257" stringByAppendingString:DeviceSuffix]]];
+            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[NSString stringWithFormat:@"MD%@%@", DeviceB32, DeviceSuffix]]];
         }
         if ([CheckWhiteS state] == 1) {
             [ListDevice addObject:[NSLocalizedString(@"White", @"White") stringByAppendingString:@" 16GB"]];
-            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[@"MD237" stringByAppendingString:DeviceSuffix]]];
+            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[NSString stringWithFormat:@"MD%@%@", DeviceW16, DeviceSuffix]]];
         }
         if ([CheckWhiteM state] == 1) {
             [ListDevice addObject:[NSLocalizedString(@"White", @"White") stringByAppendingString:@" 32GB"]];
-            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[@"MD244" stringByAppendingString:DeviceSuffix]]];
+            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[NSString stringWithFormat:@"MD%@%@", DeviceW32, DeviceSuffix]]];
         }
         if ([CheckWhiteL state] == 1) {
             [ListDevice addObject:[NSLocalizedString(@"White", @"White") stringByAppendingString:@" 64GB"]];
-            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[@"MD260" stringByAppendingString:DeviceSuffix]]];
+            [ListURL addObject:[[URLTemplate stringByReplacingOccurrencesOfString:@"AREACODE" withString:AreaCode] stringByReplacingOccurrencesOfString:@"DEVICECODE" withString:[NSString stringWithFormat:@"MD%@%@", DeviceW64, DeviceSuffix]]];
         }
         
         if ([ListDevice count] == 0) {
@@ -371,7 +418,11 @@
             NSURLResponse *response = nil;
             NSError **error=nil; 
             [[NSData alloc] initWithData:[NSURLConnection sendSynchronousRequest:request returningResponse:&response error:error]];
-            NSInteger statusCode = [((NSHTTPURLResponse *)response) statusCode];
+            NSInteger statusCode;
+            if ([[[response URL] absoluteString] hasSuffix:@"/cart"])
+                statusCode = 404;
+            else
+                statusCode = [((NSHTTPURLResponse *)response) statusCode];
             if (statusCode == 200) {
                 AlertContent = [AlertContent stringByAppendingString:@"  * iPhone 4S "];
                 AlertContent = [AlertContent stringByAppendingString:[ListDevice objectAtIndex:i]];

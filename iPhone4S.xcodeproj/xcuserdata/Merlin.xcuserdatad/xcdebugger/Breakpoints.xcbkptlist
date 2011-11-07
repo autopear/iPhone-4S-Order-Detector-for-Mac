@@ -9,11 +9,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342340498.350461"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "291"
-         endingLineNumber = "291"
+         startingLineNumber = "338"
+         endingLineNumber = "338"
          landmarkName = "-startDetection:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -23,11 +23,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342340498.350461"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "292"
-         endingLineNumber = "292"
+         startingLineNumber = "339"
+         endingLineNumber = "339"
          landmarkName = "-startDetection:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -37,11 +37,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342340498.350461"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "310"
-         endingLineNumber = "310"
+         startingLineNumber = "357"
+         endingLineNumber = "357"
          landmarkName = "-startDetection:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -51,11 +51,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342340498.350461"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "354"
-         endingLineNumber = "354"
+         startingLineNumber = "401"
+         endingLineNumber = "401"
          landmarkName = "-startDetection:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -65,11 +65,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342341042.482831"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "378"
-         endingLineNumber = "378"
+         startingLineNumber = "429"
+         endingLineNumber = "429"
          landmarkName = "-checkPageStatus"
          landmarkType = "5">
       </FileBreakpoint>
@@ -79,11 +79,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342341042.482831"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "379"
-         endingLineNumber = "379"
+         startingLineNumber = "430"
+         endingLineNumber = "430"
          landmarkName = "-checkPageStatus"
          landmarkType = "5">
       </FileBreakpoint>
@@ -93,7 +93,63 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342341042.482831"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "464"
+         endingLineNumber = "464"
+         landmarkName = "-checkPageStatus"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "iPhone4S/iPhone4SAppDelegate.m"
+         timestampString = "342341042.482831"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "429"
+         endingLineNumber = "429"
+         landmarkName = "-checkPageStatus"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "iPhone4S/iPhone4SAppDelegate.m"
+         timestampString = "342341042.482831"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "432"
+         endingLineNumber = "432"
+         landmarkName = "-checkPageStatus"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "iPhone4S/iPhone4SAppDelegate.m"
+         timestampString = "342341042.482831"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "460"
+         endingLineNumber = "460"
+         landmarkName = "-checkPageStatus"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "iPhone4S/iPhone4SAppDelegate.m"
+         timestampString = "342340498.350461"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "413"
@@ -107,11 +163,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342341042.482831"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "378"
-         endingLineNumber = "378"
+         startingLineNumber = "463"
+         endingLineNumber = "463"
          landmarkName = "-checkPageStatus"
          landmarkType = "5">
       </FileBreakpoint>
@@ -121,11 +177,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342341042.482831"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "381"
-         endingLineNumber = "381"
+         startingLineNumber = "444"
+         endingLineNumber = "444"
          landmarkName = "-checkPageStatus"
          landmarkType = "5">
       </FileBreakpoint>
@@ -135,11 +191,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342341042.482831"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "409"
-         endingLineNumber = "409"
+         startingLineNumber = "444"
+         endingLineNumber = "444"
          landmarkName = "-checkPageStatus"
          landmarkType = "5">
       </FileBreakpoint>
@@ -149,11 +205,25 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342340498.350461"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "366"
-         endingLineNumber = "366"
+         startingLineNumber = "382"
+         endingLineNumber = "382"
+         landmarkName = "-startDetection:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "iPhone4S/iPhone4SAppDelegate.m"
+         timestampString = "342341042.482831"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "434"
+         endingLineNumber = "434"
          landmarkName = "-checkPageStatus"
          landmarkType = "5">
       </FileBreakpoint>
@@ -163,39 +233,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
+         timestampString = "342341042.482831"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "412"
-         endingLineNumber = "412"
-         landmarkName = "-checkPageStatus"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "393"
-         endingLineNumber = "393"
-         landmarkName = "-checkPageStatus"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "iPhone4S/iPhone4SAppDelegate.m"
-         timestampString = "339918523.562535"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "393"
-         endingLineNumber = "393"
+         startingLineNumber = "426"
+         endingLineNumber = "426"
          landmarkName = "-checkPageStatus"
          landmarkType = "5">
       </FileBreakpoint>
